@@ -31,11 +31,13 @@
           "name": "Forge",
           "type": "forge",
           "required": true,
+          "maven": "net.minecraftforge:forge:1.20.1-47.4.0",
           "artifact": {
             "group": "net.minecraftforge",
             "name": "forge",
             "version": "1.20.1-47.4.0"
-          }
+          },
+          "primary": true
         }
       ]
     }
