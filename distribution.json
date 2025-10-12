@@ -6,17 +6,15 @@
       "id": "nebula-1.20.1",
       "name": "Nebula Network (1.20.1)",
       "description": "Serveur Forge 1.20.1 - Nebula Network",
-      "icon": "icon.png",
+      "icon": null,
       "version": "1.0.0",
       "address": "game21fr.hosterfy.com:20339",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
       "autoconnect": true,
-      "java": {
-        "suggestedMajor": 17,
-        "supported": [17,18,19,20,21],
-        "distribution": "temurin"
-      },
+
+      "java": { "suggestedMajor": 17, "supported": [17,18,19,20,21], "distribution": "temurin" },
+
       "modules": [
         {
           "type": "forge",
