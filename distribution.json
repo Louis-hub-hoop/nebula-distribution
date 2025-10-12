@@ -30,7 +30,6 @@
           "required": true,
           "artifact": "net.minecraftforge:forge:1.20.1-47.4.0",
           "repo": "https://maven.minecraftforge.net/",
-          "directDownload": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-installer.jar",
           "primary": true
         }
       ]
