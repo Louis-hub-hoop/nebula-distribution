@@ -27,11 +27,15 @@
 
       "modules": [
         {
-          "id": "forge",
+          "id": "net.minecraftforge:forge",
           "name": "Forge",
           "type": "forge",
           "required": true,
-          "artifact": "net.minecraftforge:forge:1.20.1-47.4.0",
+
+          "maven":   "net.minecraftforge:forge:1.20.1-47.4.0",
+          "artifact":"net.minecraftforge:forge:1.20.1-47.4.0",
+          "repo":    "https://maven.minecraftforge.net",
+
           "primary": true
         }
       ]
