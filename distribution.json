@@ -15,18 +15,14 @@
       "mainServer": true,
       "autoconnect": true,
 
-      "repositories": [
-        "https://maven.minecraftforge.net/",
-        "https://libraries.minecraft.net/",
-        "https://repo1.maven.org/maven2/"
-      ],
-
       "modules": [
         {
           "id": "forge",
           "name": "Forge",
-          "type": "forge",
-          "artifact": "net.minecraftforge:forge:1.20.1-47.4.0",
+          "type": "ForgeHosted",
+          "artifact": {
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-installer.jar"
+          },
           "required": true
         }
       ]
