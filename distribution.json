@@ -1,11 +1,7 @@
 {
   "version": "1.0.0",
-  "rss": "",
-  "discord": {
-    "clientId": "",
-    "smallImageText": "",
-    "smallImageKey": ""
-  },
+  "rss": null,
+  "discord": null,
   "servers": [
     {
       "id": "nebula-1.20.1",
@@ -17,20 +13,20 @@
       "minecraftVersion": "1.20.1",
       "mainServer": true,
       "autoconnect": true,
-      "java": {
-        "suggestedMajor": 17,
-        "supported": [17, 18, 19, 20, 21],
-        "distribution": "temurin"
-      },
+
+      "repositories": [
+        "https://maven.minecraftforge.net/",
+        "https://libraries.minecraft.net/",
+        "https://repo1.maven.org/maven2/"
+      ],
+
       "modules": [
         {
           "id": "forge",
           "name": "Forge",
           "type": "forge",
-          "required": true,
           "artifact": "net.minecraftforge:forge:1.20.1-47.4.0",
-          "repo": "https://maven.minecraftforge.net/",
-          "primary": true
+          "required": true
         }
       ]
     }
